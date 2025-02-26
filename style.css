@@ -1,0 +1,66 @@
+.ota {
+    width: 240px;
+    height: 240px;
+  
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 8px;
+    gap: 8px;
+    background-color: #995db5;
+  }
+  
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 0 50px;
+    
+  }
+  
+  .bola {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  .box1 {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .box3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .box4 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box6 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .box7 {
+    display: flex;
+    justify-content: center;
+  }
+  .box10 {
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-end;
+  }
+  .box11 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .box2 {
+    display: flex;
+    align-items: flex-start;
+      flex-direction: column;
+  }
